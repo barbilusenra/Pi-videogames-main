@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'scramble';
+    src: url('../../assets/3DIsometricBold-8MYYZ.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;          
+}
+.containerSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro';
+    font-weight: 700;
+}
+.containerSearch input{
+   border-radius: 5px 0px 0px 5px;
+   border: none;
+   background: rgba(211, 211, 211, 0.082);
+   height:3em; 
+   width: 250px;   
+   font-family: 'Source Code Pro';   
+   color:rgb(255, 255, 255);
+   box-shadow: 0 0 3px 1px rgba(255, 245, 245, 0.719);
+}
+
+input::placeholder{
+    color:rgba(255, 255, 255, 0.527);
+}
+.containerSearch button {
+    border-radius: 0px 5px 5px 0px;
+    background: rgba(255, 255, 255, 0.753);
+    box-shadow: 0 0 3px 1px rgba(255, 255, 255, 0.719);
+    /* border: 1px solid rgba(238, 130, 238, 0.479); */
+    border: none;
+    width: 55px;
+    height: 3em;
+    margin: 0 0 0 8px;
+    cursor: pointer;    
+}
+.containerSearch button:hover{
+    box-shadow: 0 0 6px 3px rgba(255, 0, 157, 0.76);
+}
+.search img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+}

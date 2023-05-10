@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+@font-face {
+  font-family: 'bondie';
+  src: url('../../assets/BondieRegular-eZeLm.ttf');
+}
+
+
+.card {      
+    background: linear-gradient(
+        to bottom right,
+        rgba(39, 0, 148, 0.664),
+        rgba(206, 0, 120, 0.479)
+        );   
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 16em;
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    position: relative;
+    box-shadow: 0px 10px 10px rgba(148, 148, 148, 0.473);
+    box-sizing: border-box;
+  }  
+
+.card img {
+    width: 100%;
+    height: 60%;   
+    border-radius: 10px;
+    object-fit:cover;
+    object-position: center center;   
+    transform: translateY(-55%);      
+    transition: 0.4s;
+    box-shadow: 0 0 6px 2px rgba(148, 148, 148, 0.473);  
+  }
+  
+.card:hover img {
+    top: 0%;
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+  }
+
+.juego{
+  border: none;
+}
+
+.mouse{
+  display: flex;
+  justify-content: flex-end;
+
+  width: 35px;
+}
+ .h2 {  
+    border:none;
+    margin:auto;
+    color: rgb(253, 237, 237);
+    font-family: 'bondie';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+ }
+  
+ .name{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  box-shadow: 0px 10px 10px rgba(148, 148, 148, 0.473);
+ }
+
+ .link{   
+    text-decoration: none;    
+ }
+
+ .name:hover{
+  background: rgba(255, 255, 255, 0.363);
+ }
+
+.datos{
+    margin: 60px 0 0 0;
+    color: white;
+    font-family: 'Source Code Pro';
+    font-weight: 700;
+}

@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+.contenedorGeneral {
+  
+  margin-top: 3%;
+  display: flex;
+  justify-content: center; 
+}
+.name {
+  color: rgb(0, 0, 0);
+}
+.encabezado {
+  background-color: rgba(255, 255, 255, 0.089);
+  width: 60%;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 2px rgb(0, 0, 0);
+  font-family: 'Source Code Pro';
+  background: linear-gradient(
+        to bottom right,
+        rgba(255, 0, 106, 0.76),
+        rgba(0, 4, 255, 0.479)
+        );   
+}
+
+.titulos {
+  font-size: medium;
+  color: rgb(172, 153, 153);
+  background: rgba(0, 0, 0, 0.808);
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  border-radius: 10px;
+}
+.info {
+  background-color: rgba(0, 0, 0, 0.644);
+  border:1px solid rgba(255, 255, 255, 0.527);
+  height: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 15px;
+  border-radius: 20px;
+  margin: 0 10px 0 10px;
+}
+.image {
+  width: 40%;
+  height: 80%;
+  margin-top: 2%;
+  object-fit: fill;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 2px rgb(0, 0, 0);
+}
+.description{
+  padding: 10px;
+  margin: 10px;
+  border:1px solid rgba(255, 255, 255, 0.527);
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.644);
+}
+.bloque1{
+  color: rgba(194, 194, 194, 0.897);
+  margin: 35px 0 0 0;;
+  border-radius: 15px;
+  height: 250px;
+  padding: 10px;
+  box-shadow: 0 0 3px 1px rgb(230, 230, 230);
+  background: rgba(0, 0, 0, 0.322);
+  border: 1px solid rgba(255, 255, 255, 0.349);
+}
+.bloque2{
+  color: rgba(194, 194, 194, 0.897);
+  margin: 35px 0 0 0;;
+  border-radius: 15px;
+  height: 250px;
+  padding: 10px;
+  box-shadow: 0 0 3px 1px rgb(230, 230, 230);
+  background: rgba(0, 0, 0, 0.322);
+  border: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+@media only screen and (max-width:1355px){
+  .contenedorGeneral {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .name {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+  }
+  .encabezado {
+    background-color: rgba(255, 255, 255, 0.089);
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 6px 2px rgb(0, 0, 0);
+    font-family: 'Source Code Pro';
+  }
+  
+  .titulos {
+    color: white;
+    background: rgba(0, 0, 0, 0.397);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .info {
+    background-color: rgba(255, 255, 255, 0.089);
+    height: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 10px;
+    box-shadow: 0 0 6px 2px rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  
+  .image {
+    width: 40%;
+    height: 80%;
+    margin-top: 2%;
+    object-fit: fill;
+    border-radius: 20px;
+    box-shadow: 0 0 6px 2px rgb(0, 0, 0);
+  }
+  .description{
+    color: rgb(209, 205, 205);
+  }
+
+  .bloque1{
+    color: rgba(194, 194, 194, 0.897);
+    margin: 20px 0 0 0;;
+    border-radius: 15px;
+    height: 200px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.322);
+    border: 1px solid rgba(255, 255, 255, 0.349);
+  }
+  .bloque2{
+    color: rgba(194, 194, 194, 0.897);
+    margin: 20px 0 0 0;;
+    border-radius: 15px;
+    height: 200px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.322);
+    border: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+}
+
+@media only screen and (max-width:1160px){
+  .contenedorGeneral {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center; 
+  }  
+  .name {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+   
+  }
+  .encabezado {
+    background-color: rgba(255, 255, 255, 0.089);
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 6px 2px rgb(0, 0, 0);
+    font-family: 'Source Code Pro';
+  }
+  
+  .titulos {
+    color: white;
+    background: rgba(0, 0, 0, 0.397);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .info {
+    background-color: rgba(255, 255, 255, 0.089);
+    height: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 10px;
+    box-shadow: 0 0 6px 2px rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  
+  .image {
+    width: 40%;
+    height: 80%;
+    margin-top: 2%;
+    object-fit: fill;
+    border-radius: 20px;
+    box-shadow: 0 0 6px 2px rgb(0, 0, 0);
+  }
+  .description{
+    color: rgb(209, 205, 205);
+  }
+
+  .bloque1{
+    color: rgba(194, 194, 194, 0.897);
+    margin: 20px 0 0 0;;
+    border-radius: 15px;
+    height: 200px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.322);
+    border: 1px solid rgba(255, 255, 255, 0.349);
+  }
+  .bloque2{
+    color: rgba(194, 194, 194, 0.897);
+    margin: 20px 0 0 0;;
+    border-radius: 15px;
+    height: 200px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.322);
+    border: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+}
+@media only screen and (max-width:720px){
+  .contenedorGeneral {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .name {
+    font-size: 20px;
+    color: white;
+    
+  }
+  .encabezado {
+    padding: 20px;
+    background-color: rgba(211, 3, 3, 0.089);
+    width: 100%;
+    margin:0 0 0 35px;
+    font-family: 'Source Code Pro';
+  }
+  
+  .titulos {
+    color: rgb(253, 255, 253);
+    background: rgba(0, 0, 0, 0.397);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .info {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(126, 91, 91, 0.623);
+    height: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 10px;
+    border:none;
+  }
+  
+  .image {
+    width: 30%;
+    height: 60%;
+    margin-top: 2%;
+    object-fit: fill;
+    border-radius: 20px;
+    }
+  
+  .description{
+    color: rgb(209, 205, 205);
+  }
+
+  .bloque1{
+    color: rgba(194, 194, 194, 0.897);
+    margin: 10px 10px 0 10px;;
+    border-radius: 15px;
+    height: 240px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.322);
+    border: 1px solid rgba(255, 255, 255, 0.349);
+  }
+  .bloque2{
+    color: rgba(194, 194, 194, 0.897);
+    margin: 10px 0 0 0;;
+    border-radius: 15px;
+    width: 500px;    
+    height: 240px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.322);
+    border: 1px solid rgba(255, 255, 255, 0.349);
+} 
+}

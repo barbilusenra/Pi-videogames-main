@@ -1,0 +1,39 @@
+.paginado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    text-decoration: none;
+    font-family: 'minecraft';
+    font-size: 25px;
+    font-weight: 500;
+    width: 35px;
+    border: 1px solid rgba(255, 245, 245, 0.521);
+    margin-right:7px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 3px;
+    text-align: center;
+    background: linear-gradient(
+        to bottom right,
+        rgba(148, 0, 81, 0.781),
+        rgba(59, 5, 255, 0.767)
+        ); 
+    border-radius: 20px;
+}
+.number:hover{
+background: rgb(10, 10, 10);
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:  white;
+}
